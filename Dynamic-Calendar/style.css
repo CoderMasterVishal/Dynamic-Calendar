@@ -22,7 +22,7 @@ body {
 }
 .container h1{
   position: absolute;
-  top: 60px;
+  top: 0px;
   text-align: center;
   left: 40%;
   font-size: 30px;
@@ -47,7 +47,7 @@ body {
 .calendar .header .month {
   display: flex;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--text-color);
 }
@@ -118,7 +118,7 @@ body {
 /* Credits */
 .credits a {
   position: absolute;
-  bottom: 60px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 30px;
@@ -131,7 +131,7 @@ body {
 @media (max-width: 1199px) {
   .container h1{
     position: absolute;
-    top: 60px;
+    top: 30px;
     text-align: center;
     left: 20%;
     font-size: 30px;
@@ -150,3 +150,58 @@ body {
     color: var(--primary-color);
   }
 }
+
+@media (max-width: 400px) {
+  .container h1{
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    left: 15%;
+    font-size: 30px;
+    color:  #db0933;
+  }
+
+  .credits a {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    color:blue;
+  }
+  .credits span {
+    color: var(--primary-color);
+  }
+}
+
+@media (max-width: 450px) {
+
+  .credits a {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    color: white;
+  }
+  .credits span {
+    color: var(--primary-color);
+  }
+}
+
+@media (max-width: 468px) {
+
+  .credits a {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+    color: white;
+  }
+  .credits span {
+    color: var(--primary-color);
+  }
+}
+
+
